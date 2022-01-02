@@ -72,18 +72,6 @@ body {
   background-color: #3f352f;
 }
 
-.canvas .circle .pot .eyes {
-  position: absolute;
-  width: 4vmin;
-  height: 4vmin;
-  background: #3f352f;
-  border-radius: 50%;
-  bottom: 12vmin;
-  right: 18vmin;
-  -webkit-box-shadow: 14vmin 0 #3f352f;
-          box-shadow: 14vmin 0 #3f352f;
-}
-
 .canvas .circle .pot .cheeks {
   position: absolute;
   width: 5vmin;
@@ -95,6 +83,22 @@ body {
   opacity: 25%;
   -webkit-box-shadow: 18vmin 0 red;
           box-shadow: 18vmin 0 red;
+  z-index: 0;
+}
+
+.canvas .circle .pot .eyes {
+  position: absolute;
+  z-index: 1;
+  width: 4vmin;
+  height: 4vmin;
+  background: #3f352f;
+  border-radius: 50%;
+  bottom: 12vmin;
+  right: 18vmin;
+  -webkit-box-shadow: 14vmin 0 #3f352f;
+          box-shadow: 14vmin 0 #3f352f;
+  -webkit-animation: blink 1.5s infinite ease-out;
+          animation: blink 1.5s infinite ease-out;
 }
 
 .canvas .circle .pot .mouth {
@@ -106,6 +110,28 @@ body {
   border-radius: 50%;
   background: transparent;
   border-bottom: 1vmin solid #3f352f;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    -webkit-transform: scale(1, 0.1);
+            transform: scale(1, 0.1);
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+}
+
+@keyframes blink {
+  0% {
+    -webkit-transform: scale(1, 0.1);
+            transform: scale(1, 0.1);
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
 }
 
 .canvas .circle .cactus {
@@ -242,8 +268,8 @@ body {
   position: absolute;
   width: 0;
   height: 0;
-  top: 4vmin;
-  left: 5vmin;
+  top: 3vmin;
+  left: 6vmin;
   border-left: 1vmin solid transparent;
   border-right: 1vmin solid transparent;
   border-bottom: 5vmin solid #4f653f;
