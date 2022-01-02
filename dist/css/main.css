@@ -63,4 +63,24 @@ body {
   bottom: 15vmin;
   border-radius: 3vmin;
 }
+
+.canvas .circle .pot::after {
+  content: "";
+  position: absolute;
+  width: 26vmin;
+  height: 1vmin;
+  background-color: #000;
+}
+
+.canvas .circle .pot .eyes {
+  position: absolute;
+  width: 4vmin;
+  height: 4vmin;
+  background: #000;
+  border-radius: 50%;
+  bottom: 12vmin;
+  right: 18vmin;
+  -webkit-box-shadow: 14vmin 0 #000;
+          box-shadow: 14vmin 0 #000;
+}
 /*# sourceMappingURL=main.css.map */
