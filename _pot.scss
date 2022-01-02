@@ -1,0 +1,11 @@
+.pot {
+  position: absolute;
+  /** Create a trapezoid shape. */
+  border-top: 25vmin solid $pot-color;
+  border-left: 7vmin solid transparent;
+  border-right: 7vmin solid transparent;
+  height: 0;
+  width: 40vmin;
+  bottom: 15vmin;
+  border-radius: 3vmin;
+}
