@@ -83,4 +83,28 @@ body {
   -webkit-box-shadow: 14vmin 0 #000;
           box-shadow: 14vmin 0 #000;
 }
+
+.canvas .circle .pot .cheeks {
+  position: absolute;
+  width: 5vmin;
+  height: 2.5vmin;
+  top: -13vmin;
+  left: 1.5vmin;
+  background-color: red;
+  border-radius: 50%;
+  opacity: 25%;
+  -webkit-box-shadow: 18vmin 0 red;
+          box-shadow: 18vmin 0 red;
+}
+
+.canvas .circle .pot .mouth {
+  position: absolute;
+  width: 4vmin;
+  height: 4vmin;
+  top: -11vmin;
+  left: 11vmin;
+  border-radius: 50%;
+  background: transparent;
+  border-bottom: 1vmin solid #000;
+}
 /*# sourceMappingURL=main.css.map */
