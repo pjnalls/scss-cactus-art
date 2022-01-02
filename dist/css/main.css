@@ -141,6 +141,42 @@ body {
   border-left: 1vmin solid #4f653f;
 }
 
+.canvas .circle .cactus .pricks {
+  width: 0;
+  height: 0;
+  border-left: 1vmin solid transparent;
+  border-right: 1vmin solid transparent;
+  border-bottom: 7vmin solid #4f653f;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.canvas .circle .cactus .pricks::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 5vmin;
+  left: 9vmin;
+  border-left: 1vmin solid transparent;
+  border-right: 1vmin solid transparent;
+  border-bottom: 7vmin solid #4f653f;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.canvas .circle .cactus .pricks::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 7vmin;
+  left: -10vmin;
+  border-left: 1vmin solid transparent;
+  border-right: 1vmin solid transparent;
+  border-bottom: 7vmin solid #4f653f;
+}
+
 .canvas .circle .cactus-small {
   position: absolute;
   width: 17vmin;
@@ -172,5 +208,46 @@ body {
   background: transparent;
   border-radius: 50%;
   border-left: 1vmin solid #4f653f;
+}
+
+.canvas .circle .cactus-small .pricks-right {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -2vmin;
+  left: 0;
+  border-left: 1vmin solid transparent;
+  border-right: 1vmin solid transparent;
+  border-bottom: 5vmin solid #4f653f;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.canvas .circle .cactus-small .pricks-right::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 10vmin;
+  left: 7vmin;
+  border-left: 1vmin solid transparent;
+  border-right: 1vmin solid transparent;
+  border-bottom: 5vmin solid #4f653f;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.canvas .circle .cactus-small .pricks-right::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 4vmin;
+  left: 5vmin;
+  border-left: 1vmin solid transparent;
+  border-right: 1vmin solid transparent;
+  border-bottom: 5vmin solid #4f653f;
+  -webkit-transform: rotate(60deg);
+          transform: rotate(60deg);
 }
 /*# sourceMappingURL=main.css.map */
