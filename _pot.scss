@@ -8,4 +8,21 @@
   width: 40vmin;
   bottom: 15vmin;
   border-radius: 3vmin;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 26vmin;
+    height: 1vmin;
+    background-color: #000;
+  }
+  .eyes {
+    position: absolute;
+    width: 4vmin;
+    height: 4vmin;
+    background: #000;
+    border-radius: 50%;
+    bottom: 12vmin;
+    right: 18vmin;
+    box-shadow: 14vmin 0 #000;
+  }
 }
