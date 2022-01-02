@@ -25,4 +25,25 @@
     right: 18vmin;
     box-shadow: 14vmin 0 #000;
   }
+  .cheeks {
+    position: absolute;
+    width: 5vmin;
+    height: 2.5vmin;
+    top: -13vmin;
+    left: 1.5vmin;
+    background-color: red;
+    border-radius: 50%;
+    opacity: 25%;
+    box-shadow: 18vmin 0 rgba(red, 25%);
+  }
+  .mouth {
+    position: absolute;
+    width: 4vmin;
+    height: 4vmin;
+    top: -11vmin;
+    left: 11vmin;
+    border-radius: 50%;
+    background: transparent;
+    border-bottom: 1vmin solid #000;
+  }
 }
