@@ -69,19 +69,19 @@ body {
   position: absolute;
   width: 26vmin;
   height: 1vmin;
-  background-color: #000;
+  background-color: #3f352f;
 }
 
 .canvas .circle .pot .eyes {
   position: absolute;
   width: 4vmin;
   height: 4vmin;
-  background: #000;
+  background: #3f352f;
   border-radius: 50%;
   bottom: 12vmin;
   right: 18vmin;
-  -webkit-box-shadow: 14vmin 0 #000;
-          box-shadow: 14vmin 0 #000;
+  -webkit-box-shadow: 14vmin 0 #3f352f;
+          box-shadow: 14vmin 0 #3f352f;
 }
 
 .canvas .circle .pot .cheeks {
@@ -105,6 +105,17 @@ body {
   left: 11vmin;
   border-radius: 50%;
   background: transparent;
-  border-bottom: 1vmin solid #000;
+  border-bottom: 1vmin solid #3f352f;
+}
+
+.canvas .circle .cactus {
+  position: absolute;
+  width: 17vmin;
+  height: 30vmin;
+  background: #809f5a;
+  border-radius: 45%;
+  top: 15vmin;
+  left: 25vmin;
+  border: 1vmin solid #3f352f;
 }
 /*# sourceMappingURL=main.css.map */
