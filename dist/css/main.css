@@ -19,4 +19,48 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.canvas {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #efe1e1;
+  width: 100vw;
+  height: 100vh;
+}
+
+.canvas .circle {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 80vmin;
+  height: 80vmin;
+  border-radius: 50%;
+  background: #f5d9a1;
+}
+
+.canvas .circle .pot {
+  position: absolute;
+  /** Create a trapezoid shape. */
+  border-top: 25vmin solid #915f5d;
+  border-left: 7vmin solid transparent;
+  border-right: 7vmin solid transparent;
+  height: 0;
+  width: 40vmin;
+  bottom: 15vmin;
+  border-radius: 3vmin;
+}
 /*# sourceMappingURL=main.css.map */
