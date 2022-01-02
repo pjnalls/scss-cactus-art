@@ -1,1 +1,22 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+/** 
+ * Global Color Variables 
+ */
+html {
+  /** Make fonts more accessible */
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=main.css.map */
