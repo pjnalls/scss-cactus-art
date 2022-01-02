@@ -12,6 +12,6 @@
 
 <br>
 
-Credit: YouTube | Code and Dream — "How to create CSS Art (All the steps + example)": https://www.youtube.com/watch?v=pGaw-eb-nPM.
+Credit: Original source code from YouTube | Code and Dream — "How to create CSS Art (All the steps + example)": https://www.youtube.com/watch?v=pGaw-eb-nPM.
 
 <br>
