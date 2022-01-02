@@ -1,0 +1,10 @@
+.cactus {
+  position: absolute;
+  width: 17vmin;
+  height: 30vmin;
+  background: $cactus-color;
+  border-radius: 45%;
+  top: 15vmin;
+  left: 25vmin;
+  border: 1vmin solid $outline-color;
+}
