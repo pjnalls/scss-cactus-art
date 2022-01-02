@@ -118,4 +118,59 @@ body {
   left: 25vmin;
   border: 1vmin solid #3f352f;
 }
+
+.canvas .circle .cactus::before {
+  content: "";
+  position: absolute;
+  width: 5vmin;
+  height: 30vmin;
+  left: 6vmin;
+  background: transparent;
+  border-radius: 50%;
+  border-right: 1vmin solid #4f653f;
+}
+
+.canvas .circle .cactus::after {
+  content: "";
+  position: absolute;
+  width: 5vmin;
+  height: 30vmin;
+  right: 6vmin;
+  background: transparent;
+  border-radius: 50%;
+  border-left: 1vmin solid #4f653f;
+}
+
+.canvas .circle .cactus-small {
+  position: absolute;
+  width: 17vmin;
+  height: 20vmin;
+  top: 25vmin;
+  right: 28vmin;
+  background: #809f5a;
+  border-radius: 45%;
+  border: 1vmin solid #3f352f;
+}
+
+.canvas .circle .cactus-small::before {
+  content: "";
+  position: absolute;
+  width: 5vmin;
+  height: 20vmin;
+  left: 6vmin;
+  background: transparent;
+  border-radius: 50%;
+  border-right: 1vmin solid #4f653f;
+}
+
+.canvas .circle .cactus-small::after {
+  content: "";
+  position: absolute;
+  width: 5vmin;
+  height: 20vmin;
+  right: 6vmin;
+  background: transparent;
+  border-radius: 50%;
+  border-left: 1vmin solid #4f653f;
+}
 /*# sourceMappingURL=main.css.map */
